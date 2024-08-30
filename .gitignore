@@ -1,5 +1,5 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
-
+/data.ms
 # dependencies
 /node_modules
 /.pnp
@@ -34,3 +34,9 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+ingest/meilisearch-importer-x86_64-unknown-linux-gnu/
+
+*/__pycache__/
+ingest/mcli.gz
+ingest/mcli.tar.xz
